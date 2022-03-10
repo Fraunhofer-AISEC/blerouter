@@ -38,7 +38,8 @@ Assign static IPv6 address to the PC (use the wifi interface - not necessarily *
 
 ```bash
 sudo ifconfig wlp4s0 add 2001:db9::2/64
-ifconfig
+# or
+# sudo ip address add 2001:db9::2/64 dev wlp4s0
 ```
 
 
